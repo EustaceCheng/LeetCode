@@ -15,7 +15,8 @@ function myAtoi(s: string): number {
     if (newS[i] >= '0' && newS[i] <= '9') {
       ans += newS[i];
 
-    } else { break }
+    } else  
+        break 
   }
 
   if (ans === '' || ans === '-') return 0;
