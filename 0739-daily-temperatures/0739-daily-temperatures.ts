@@ -12,8 +12,8 @@ function dailyTemperatures(temperatures: number[]): number[] {
 
         let days: number = 1;
 
-        while (temperatures[ i + days] <= cur) {
-            days += answer[ i + days];
+        while (temperatures[i + days] <= cur) {
+            days += answer[i + days];
         }
         answer[i] = days;
     }
